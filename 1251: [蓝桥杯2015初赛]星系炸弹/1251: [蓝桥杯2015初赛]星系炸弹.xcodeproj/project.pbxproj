@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		C6ED315524E93F37001F9B81 /* 1251: [蓝桥杯2015初赛]星系炸弹 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1251: [蓝桥杯2015初赛]星系炸弹"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6ED315824E93F37001F9B81 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C6ED315F24E93F74001F9B81 /* 1251 [蓝桥杯2015初赛]星系炸弹.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "1251 [蓝桥杯2015初赛]星系炸弹.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		C6ED314C24E93F37001F9B81 = {
 			isa = PBXGroup;
 			children = (
+				C6ED315F24E93F74001F9B81 /* 1251 [蓝桥杯2015初赛]星系炸弹.md */,
 				C6ED315724E93F37001F9B81 /* 1251: [蓝桥杯2015初赛]星系炸弹 */,
 				C6ED315624E93F37001F9B81 /* Products */,
 			);
