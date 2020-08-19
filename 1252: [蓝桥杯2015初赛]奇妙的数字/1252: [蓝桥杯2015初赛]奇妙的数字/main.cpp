@@ -7,33 +7,43 @@
 
 #include <iostream>
 using  namespace::std;
-bool yep(long long num)
+bool yep(int num1,int num2)
 {
     int timee[10]={0};
-    while(num>=10)
+    while(num1>=10)
     {
-        int c=num%10;
+        int c=num1%10;
         timee[c]++;
         if(timee[c]!=1)
             return false;
-        num/=10;
+        num1/=10;
     }
-    timee[num]++;
-    for(int i=1;i<=10;i++)
+    timee[num1]++;
+    while(num2>=10)
+    {
+        int c=num2%10;
+        timee[c]++;
+        if(timee[c]!=1)
+            return false;
+        num2/=10;
+    }
+    timee[num2]++;
+    for(int i=1;i<=9;i++)
     if(timee[i]!=1)
         return false;
     return true;
 }
 int main()
 {
-    for(int i=10000;;i++)
+    for(int i=1;i<100000;i++)
     {
-        long long a=i*i;
-        long long b=a*i;
-        if(yep(a))
-            if(yep(b))
-                cout<<i;
-        cout<<i<<endl;
+        int a=i*i;
+        int b=a*i;
+        if(yep(a,b))
+        {
+            cout<<i<<endl;
+            break;
+        }
     }
     return 0;
 }
