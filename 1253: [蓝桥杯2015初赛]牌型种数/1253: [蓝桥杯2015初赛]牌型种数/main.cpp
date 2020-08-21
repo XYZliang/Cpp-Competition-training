@@ -6,9 +6,30 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int plan;
+
+void dts(int num,int time)
+{
+    if(num>13||time>13)
+        return;
+    if(num==13&&time==13)
+    {
+        plan++;
+        return;
+    }
+    time++;
+    for(int i=0;i<=4;i++)
+    {
+        dts(num+i,time);
+    }
+}
+
+int main()
+{
+    plan=0;
+    dts(0,0);
+    cout<<plan<<endl;
     return 0;
 }
