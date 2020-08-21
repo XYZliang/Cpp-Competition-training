@@ -12,6 +12,7 @@ int plan;
 
 void dts(int num,int time)
 {
+    //time++ X
     if(num>13||time>13)
         return;
     if(num==13&&time==13)
@@ -19,9 +20,10 @@ void dts(int num,int time)
         plan++;
         return;
     }
-    time++;
+    time++;//注意time++的位置
     for(int i=0;i<=4;i++)
     {
+        //dts(num+i,++time); X
         dts(num+i,time);
     }
 }
