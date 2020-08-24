@@ -249,7 +249,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "AA3CD3A1-B662-4466-A225-0E9C5DEF7151"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "1254: [&#x84dd;&#x6865;&#x676f; 2015 &#x521d;&#x8d5b;] &#x624b;&#x94fe;&#x6837;&#x5f0f;/1254: [&#x84dd;&#x6865;&#x676f; 2015 &#x521d;&#x8d5b;] &#x624b;&#x94fe;&#x6837;&#x5f0f;/main.cpp"
@@ -261,7 +261,7 @@
             landmarkType = "9">
             <Locations>
                <Location
-                  uuid = "AA3CD3A1-B662-4466-A225-0E9C5DEF7151 - ccf73c38be748a69"
+                  uuid = "AA3CD3A1-B662-4466-A225-0E9C5DEF7151 - ccf73c38be748a48"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -271,12 +271,12 @@
                   urlString = "file:///Users/zhangliang/Documents/Cpp-Competition-training/1254:%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202015%20%E5%88%9D%E8%B5%9B%5D%20%E6%89%8B%E9%93%BE%E6%A0%B7%E5%BC%8F/1254:%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202015%20%E5%88%9D%E8%B5%9B%5D%20%E6%89%8B%E9%93%BE%E6%A0%B7%E5%BC%8F/main.cpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
                   offsetFromSymbolStart = "323">
                </Location>
                <Location
-                  uuid = "AA3CD3A1-B662-4466-A225-0E9C5DEF7151 - ccf73c38be748a69"
+                  uuid = "AA3CD3A1-B662-4466-A225-0E9C5DEF7151 - ccf73c38be748a48"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -286,9 +286,57 @@
                   urlString = "file:///Users/zhangliang/Documents/Cpp-Competition-training/1254:%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202015%20%E5%88%9D%E8%B5%9B%5D%20%E6%89%8B%E9%93%BE%E6%A0%B7%E5%BC%8F/1254:%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202015%20%E5%88%9D%E8%B5%9B%5D%20%E6%89%8B%E9%93%BE%E6%A0%B7%E5%BC%8F/main.cpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
                   offsetFromSymbolStart = "407">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E37F1C9-0748-49EF-9F0D-F97AF7BEF63F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "1255: [&#x84dd;&#x6865;&#x676f; 2015 &#x521d;&#x8d5b;] &#x996e;&#x6599;&#x6362;&#x8d2d;/1255: [&#x84dd;&#x6865;&#x676f; 2015 &#x521d;&#x8d5b;] &#x996e;&#x6599;&#x6362;&#x8d2d;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "main()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "8E37F1C9-0748-49EF-9F0D-F97AF7BEF63F - 6c7d08792dd54693"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "1255: [&#x84dd;&#x6865;&#x676f; 2015 &#x521d;&#x8d5b;] &#x996e;&#x6599;&#x6362;&#x8d2d;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangliang/Documents/Cpp-Competition-training/1255:%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202015%20%E5%88%9D%E8%B5%9B%5D%20%E9%A5%AE%E6%96%99%E6%8D%A2%E8%B4%AD/1255:%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202015%20%E5%88%9D%E8%B5%9B%5D%20%E9%A5%AE%E6%96%99%E6%8D%A2%E8%B4%AD/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  uuid = "8E37F1C9-0748-49EF-9F0D-F97AF7BEF63F - 6c7d08792dd54693"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "1255: [&#x84dd;&#x6865;&#x676f; 2015 &#x521d;&#x8d5b;] &#x996e;&#x6599;&#x6362;&#x8d2d;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangliang/Documents/Cpp-Competition-training/1255:%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202015%20%E5%88%9D%E8%B5%9B%5D%20%E9%A5%AE%E6%96%99%E6%8D%A2%E8%B4%AD/1255:%20%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%202015%20%E5%88%9D%E8%B5%9B%5D%20%E9%A5%AE%E6%96%99%E6%8D%A2%E8%B4%AD/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "145">
                </Location>
             </Locations>
          </BreakpointContent>
