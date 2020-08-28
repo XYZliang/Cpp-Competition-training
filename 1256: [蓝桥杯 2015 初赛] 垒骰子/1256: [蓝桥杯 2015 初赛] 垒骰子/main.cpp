@@ -9,6 +9,6 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout << "做不来！！！！！也看不懂！！！！！\n";
     return 0;
 }
