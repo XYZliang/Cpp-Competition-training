@@ -6,9 +6,25 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace  std;
+int main()
+{
+    int sum=0;
+    for(int i=10000;i<=99999;i++)
+    {
+        int key=1;
+        for(int ii=i*10;ii>10;)
+        {
+            ii/=10;
+            if(ii%10==4)
+            {
+                key=0;
+                break;
+            }
+        }
+        if(key)
+            sum++;
+    }
+    cout<<sum<<endl;
     return 0;
 }

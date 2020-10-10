@@ -341,5 +341,21 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFBF1363-073E-4508-9C38-E3DFC7B46175"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "9542000"
+            continueAfterRunningActions = "No"
+            filePath = "1259:[&#x84dd;&#x6865;&#x676f; 2015 &#x521d;&#x8d5b;] &#x4e09;&#x7f8a;&#x732e;&#x745e;/1259:[&#x84dd;&#x6865;&#x676f; 2015 &#x521d;&#x8d5b;] &#x4e09;&#x7f8a;&#x732e;&#x745e;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
