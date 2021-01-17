@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C60BE17124E7E3BD005A0D1F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C60BE17024E7E3BD005A0D1F /* main.cpp */; };
+		C676A9972543ECD8009B86AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C676A9962543ECD8009B86AE /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C60BE16B24E7E3BD005A0D1F /* CopyFiles */ = {
+		C676A9912543ECD8009B86AE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,14 +23,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C60BE16D24E7E3BD005A0D1F /* 1250: [蓝桥杯2015初赛]方程整数解 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1250: [蓝桥杯2015初赛]方程整数解"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C60BE17024E7E3BD005A0D1F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C60BE17724E7E3FF005A0D1F /* 1250 [蓝桥杯2015初赛]方程整数解.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "1250 [蓝桥杯2015初赛]方程整数解.md"; sourceTree = SOURCE_ROOT; };
-		C6D238A925501B32003152D5 /* 43E3D73B-76E2-49C3-B8A8-AF1A2C03D453_1_105_c.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "43E3D73B-76E2-49C3-B8A8-AF1A2C03D453_1_105_c.jpeg"; sourceTree = "<group>"; };
+		C676A9932543ECD8009B86AE /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		C676A9962543ECD8009B86AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C6A189B32589DEE800F20FDA /* try.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = try.txt; sourceTree = "<group>"; };
+		C6E031BA2597032A002F6782 /* rn_GNUC.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rn_GNUC.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C60BE16A24E7E3BD005A0D1F /* Frameworks */ = {
+		C676A9902543ECD8009B86AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,66 +40,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C60BE16424E7E3BD005A0D1F = {
+		C676A98A2543ECD8009B86AE = {
 			isa = PBXGroup;
 			children = (
-				C6D238A925501B32003152D5 /* 43E3D73B-76E2-49C3-B8A8-AF1A2C03D453_1_105_c.jpeg */,
-				C60BE17724E7E3FF005A0D1F /* 1250 [蓝桥杯2015初赛]方程整数解.md */,
-				C60BE16F24E7E3BD005A0D1F /* 1250: [蓝桥杯2015初赛]方程整数解 */,
-				C60BE16E24E7E3BD005A0D1F /* Products */,
+				C676A9952543ECD8009B86AE /* test */,
+				C676A9942543ECD8009B86AE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C60BE16E24E7E3BD005A0D1F /* Products */ = {
+		C676A9942543ECD8009B86AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C60BE16D24E7E3BD005A0D1F /* 1250: [蓝桥杯2015初赛]方程整数解 */,
+				C676A9932543ECD8009B86AE /* test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C60BE16F24E7E3BD005A0D1F /* 1250: [蓝桥杯2015初赛]方程整数解 */ = {
+		C676A9952543ECD8009B86AE /* test */ = {
 			isa = PBXGroup;
 			children = (
-				C60BE17024E7E3BD005A0D1F /* main.cpp */,
+				C6E031BA2597032A002F6782 /* rn_GNUC.txt */,
+				C6A189B32589DEE800F20FDA /* try.txt */,
+				C676A9962543ECD8009B86AE /* main.cpp */,
 			);
-			path = "1250: [蓝桥杯2015初赛]方程整数解";
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C60BE16C24E7E3BD005A0D1F /* 1250: [蓝桥杯2015初赛]方程整数解 */ = {
+		C676A9922543ECD8009B86AE /* test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C60BE17424E7E3BD005A0D1F /* Build configuration list for PBXNativeTarget "1250: [蓝桥杯2015初赛]方程整数解" */;
+			buildConfigurationList = C676A99A2543ECD8009B86AE /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
-				C60BE16924E7E3BD005A0D1F /* Sources */,
-				C60BE16A24E7E3BD005A0D1F /* Frameworks */,
-				C60BE16B24E7E3BD005A0D1F /* CopyFiles */,
+				C676A98F2543ECD8009B86AE /* Sources */,
+				C676A9902543ECD8009B86AE /* Frameworks */,
+				C676A9912543ECD8009B86AE /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "1250: [蓝桥杯2015初赛]方程整数解";
-			productName = "1250: [蓝桥杯2015初赛]方程整数解";
-			productReference = C60BE16D24E7E3BD005A0D1F /* 1250: [蓝桥杯2015初赛]方程整数解 */;
+			name = test;
+			productName = test;
+			productReference = C676A9932543ECD8009B86AE /* test */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C60BE16524E7E3BD005A0D1F /* Project object */ = {
+		C676A98B2543ECD8009B86AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					C60BE16C24E7E3BD005A0D1F = {
+					C676A9922543ECD8009B86AE = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = C60BE16824E7E3BD005A0D1F /* Build configuration list for PBXProject "1250: [蓝桥杯2015初赛]方程整数解" */;
+			buildConfigurationList = C676A98E2543ECD8009B86AE /* Build configuration list for PBXProject "test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,29 +107,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C60BE16424E7E3BD005A0D1F;
-			productRefGroup = C60BE16E24E7E3BD005A0D1F /* Products */;
+			mainGroup = C676A98A2543ECD8009B86AE;
+			productRefGroup = C676A9942543ECD8009B86AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C60BE16C24E7E3BD005A0D1F /* 1250: [蓝桥杯2015初赛]方程整数解 */,
+				C676A9922543ECD8009B86AE /* test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C60BE16924E7E3BD005A0D1F /* Sources */ = {
+		C676A98F2543ECD8009B86AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C60BE17124E7E3BD005A0D1F /* main.cpp in Sources */,
+				C676A9972543ECD8009B86AE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C60BE17224E7E3BD005A0D1F /* Debug */ = {
+		C676A9982543ECD8009B86AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		C60BE17324E7E3BD005A0D1F /* Release */ = {
+		C676A9992543ECD8009B86AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +240,7 @@
 			};
 			name = Release;
 		};
-		C60BE17524E7E3BD005A0D1F /* Debug */ = {
+		C676A99B2543ECD8009B86AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -248,7 +248,7 @@
 			};
 			name = Debug;
 		};
-		C60BE17624E7E3BD005A0D1F /* Release */ = {
+		C676A99C2543ECD8009B86AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -259,25 +259,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C60BE16824E7E3BD005A0D1F /* Build configuration list for PBXProject "1250: [蓝桥杯2015初赛]方程整数解" */ = {
+		C676A98E2543ECD8009B86AE /* Build configuration list for PBXProject "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C60BE17224E7E3BD005A0D1F /* Debug */,
-				C60BE17324E7E3BD005A0D1F /* Release */,
+				C676A9982543ECD8009B86AE /* Debug */,
+				C676A9992543ECD8009B86AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C60BE17424E7E3BD005A0D1F /* Build configuration list for PBXNativeTarget "1250: [蓝桥杯2015初赛]方程整数解" */ = {
+		C676A99A2543ECD8009B86AE /* Build configuration list for PBXNativeTarget "test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C60BE17524E7E3BD005A0D1F /* Debug */,
-				C60BE17624E7E3BD005A0D1F /* Release */,
+				C676A99B2543ECD8009B86AE /* Debug */,
+				C676A99C2543ECD8009B86AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C60BE16524E7E3BD005A0D1F /* Project object */;
+	rootObject = C676A98B2543ECD8009B86AE /* Project object */;
 }

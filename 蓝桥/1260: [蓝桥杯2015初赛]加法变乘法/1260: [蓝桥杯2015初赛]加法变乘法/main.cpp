@@ -1,14 +1,16 @@
-//
-//  main.cpp
-//  1260: [蓝桥杯2015初赛]加法变乘法
-//
-//  Created by 张亮 on 2020/10/10.
-//
+#include <stdio.h>
 
-#include <iostream>
-using namespace std;
-int main() {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int adds(int a,int b)
+{
+    static int m=0,n=3;
+    n*=++m;
+    m=n%a+b++;
+    return m;
+}
+
+int main()
+{
+    printf("%d",adds(5,-1));
+    printf("%d",adds(5,-1));
+    return(0);
 }

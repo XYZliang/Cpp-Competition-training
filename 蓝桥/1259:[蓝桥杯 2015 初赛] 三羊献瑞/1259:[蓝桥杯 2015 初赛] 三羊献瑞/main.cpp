@@ -4,26 +4,17 @@
 //
 //  Created by 张亮 on 2020/10/10.
 //
-
+#include <time.h> //时间头(随机数生成器基于时间)
 #include <iostream>
 using namespace std;
 int main()
 {
-    cout << "逃～\n";
-//    int a,b,c,d,e,f,g;
-//    for(a=1;a<10;a++)
-//        for(b=1;b<10;b++)
-//            for(c=1;c<10;c++)
-//                for(d=1;d<10;d++)
-//                    for(e=1;e<10;e++)
-//                        for(f=1;f<10;f++)
-//                            for(g=1;g<10;g++)
-//                            {
-//                                int i=1000*a+100*b+10*c+d;
-//                                int ii=1000*e+100*f+10*g+b;
-//                                int end=10000*e+1000*f+100*c+10*b;
-//                                if(abs(i+ii-end)<10)
-//                                    cout<<e<<f<<g<<a;
-//                            }
+    double r;
+    for(int i=1;i<=100;i++)
+    {
+    srand((unsigned)time(NULL)+rand());
+        r=rand()/(1.0*RAND_MAX);
+        cout<<r<<endl;
+    }
     return 0;
 }
