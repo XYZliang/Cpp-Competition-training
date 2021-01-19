@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6F5E15E2531DFDC00577063 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6F5E15D2531DFDC00577063 /* main.cpp */; };
+		C6FEF87925B734A0001AEF8F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6FEF87825B734A0001AEF8F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C6F5E1582531DFDC00577063 /* CopyFiles */ = {
+		C6FEF87325B734A0001AEF8F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C6F5E15A2531DFDC00577063 /* 1259:[蓝桥杯 2015 初赛] 三羊献瑞 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1259:[蓝桥杯 2015 初赛] 三羊献瑞"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F5E15D2531DFDC00577063 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C6F5E1642531DFE800577063 /* 1259[蓝桥杯 2015 初赛] 三羊献瑞.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "1259[蓝桥杯 2015 初赛] 三羊献瑞.md"; sourceTree = "<group>"; };
+		C6FEF87525B734A0001AEF8F /* 2016年天梯赛模拟题集7-2 比较大小 (10分) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2016年天梯赛模拟题集7-2 比较大小 (10分)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6FEF87825B734A0001AEF8F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C6FEF88025B734E5001AEF8F /* 2016年天梯赛模拟题集  7-2 比较大小 (10分).md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "2016年天梯赛模拟题集  7-2 比较大小 (10分).md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C6F5E1572531DFDC00577063 /* Frameworks */ = {
+		C6FEF87225B734A0001AEF8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,65 +39,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C6F5E1512531DFDC00577063 = {
+		C6FEF86C25B734A0001AEF8F = {
 			isa = PBXGroup;
 			children = (
-				C6F5E1642531DFE800577063 /* 1259[蓝桥杯 2015 初赛] 三羊献瑞.md */,
-				C6F5E15C2531DFDC00577063 /* 1259:[蓝桥杯 2015 初赛] 三羊献瑞 */,
-				C6F5E15B2531DFDC00577063 /* Products */,
+				C6FEF88025B734E5001AEF8F /* 2016年天梯赛模拟题集  7-2 比较大小 (10分).md */,
+				C6FEF87725B734A0001AEF8F /* 2016年天梯赛模拟题集7-2 比较大小 (10分) */,
+				C6FEF87625B734A0001AEF8F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C6F5E15B2531DFDC00577063 /* Products */ = {
+		C6FEF87625B734A0001AEF8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6F5E15A2531DFDC00577063 /* 1259:[蓝桥杯 2015 初赛] 三羊献瑞 */,
+				C6FEF87525B734A0001AEF8F /* 2016年天梯赛模拟题集7-2 比较大小 (10分) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6F5E15C2531DFDC00577063 /* 1259:[蓝桥杯 2015 初赛] 三羊献瑞 */ = {
+		C6FEF87725B734A0001AEF8F /* 2016年天梯赛模拟题集7-2 比较大小 (10分) */ = {
 			isa = PBXGroup;
 			children = (
-				C6F5E15D2531DFDC00577063 /* main.cpp */,
+				C6FEF87825B734A0001AEF8F /* main.cpp */,
 			);
-			path = "1259:[蓝桥杯 2015 初赛] 三羊献瑞";
+			path = "2016年天梯赛模拟题集7-2 比较大小 (10分)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6F5E1592531DFDC00577063 /* 1259:[蓝桥杯 2015 初赛] 三羊献瑞 */ = {
+		C6FEF87425B734A0001AEF8F /* 2016年天梯赛模拟题集7-2 比较大小 (10分) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6F5E1612531DFDC00577063 /* Build configuration list for PBXNativeTarget "1259:[蓝桥杯 2015 初赛] 三羊献瑞" */;
+			buildConfigurationList = C6FEF87C25B734A0001AEF8F /* Build configuration list for PBXNativeTarget "2016年天梯赛模拟题集7-2 比较大小 (10分)" */;
 			buildPhases = (
-				C6F5E1562531DFDC00577063 /* Sources */,
-				C6F5E1572531DFDC00577063 /* Frameworks */,
-				C6F5E1582531DFDC00577063 /* CopyFiles */,
+				C6FEF87125B734A0001AEF8F /* Sources */,
+				C6FEF87225B734A0001AEF8F /* Frameworks */,
+				C6FEF87325B734A0001AEF8F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "1259:[蓝桥杯 2015 初赛] 三羊献瑞";
-			productName = "1259:[蓝桥杯 2015 初赛] 三羊献瑞";
-			productReference = C6F5E15A2531DFDC00577063 /* 1259:[蓝桥杯 2015 初赛] 三羊献瑞 */;
+			name = "2016年天梯赛模拟题集7-2 比较大小 (10分)";
+			productName = "2016年天梯赛模拟题集7-2 比较大小 (10分)";
+			productReference = C6FEF87525B734A0001AEF8F /* 2016年天梯赛模拟题集7-2 比较大小 (10分) */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C6F5E1522531DFDC00577063 /* Project object */ = {
+		C6FEF86D25B734A0001AEF8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					C6F5E1592531DFDC00577063 = {
-						CreatedOnToolsVersion = 12.0;
+					C6FEF87425B734A0001AEF8F = {
+						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = C6F5E1552531DFDC00577063 /* Build configuration list for PBXProject "1259:[蓝桥杯 2015 初赛] 三羊献瑞" */;
+			buildConfigurationList = C6FEF87025B734A0001AEF8F /* Build configuration list for PBXProject "2016年天梯赛模拟题集7-2 比较大小 (10分)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C6F5E1512531DFDC00577063;
-			productRefGroup = C6F5E15B2531DFDC00577063 /* Products */;
+			mainGroup = C6FEF86C25B734A0001AEF8F;
+			productRefGroup = C6FEF87625B734A0001AEF8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6F5E1592531DFDC00577063 /* 1259:[蓝桥杯 2015 初赛] 三羊献瑞 */,
+				C6FEF87425B734A0001AEF8F /* 2016年天梯赛模拟题集7-2 比较大小 (10分) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C6F5E1562531DFDC00577063 /* Sources */ = {
+		C6FEF87125B734A0001AEF8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F5E15E2531DFDC00577063 /* main.cpp in Sources */,
+				C6FEF87925B734A0001AEF8F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C6F5E15F2531DFDC00577063 /* Debug */ = {
+		C6FEF87A25B734A0001AEF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +178,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -186,7 +186,7 @@
 			};
 			name = Debug;
 		};
-		C6F5E1602531DFDC00577063 /* Release */ = {
+		C6FEF87B25B734A0001AEF8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,14 +231,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		C6F5E1622531DFDC00577063 /* Debug */ = {
+		C6FEF87D25B734A0001AEF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -246,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		C6F5E1632531DFDC00577063 /* Release */ = {
+		C6FEF87E25B734A0001AEF8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -257,25 +257,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6F5E1552531DFDC00577063 /* Build configuration list for PBXProject "1259:[蓝桥杯 2015 初赛] 三羊献瑞" */ = {
+		C6FEF87025B734A0001AEF8F /* Build configuration list for PBXProject "2016年天梯赛模拟题集7-2 比较大小 (10分)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6F5E15F2531DFDC00577063 /* Debug */,
-				C6F5E1602531DFDC00577063 /* Release */,
+				C6FEF87A25B734A0001AEF8F /* Debug */,
+				C6FEF87B25B734A0001AEF8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6F5E1612531DFDC00577063 /* Build configuration list for PBXNativeTarget "1259:[蓝桥杯 2015 初赛] 三羊献瑞" */ = {
+		C6FEF87C25B734A0001AEF8F /* Build configuration list for PBXNativeTarget "2016年天梯赛模拟题集7-2 比较大小 (10分)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6F5E1622531DFDC00577063 /* Debug */,
-				C6F5E1632531DFDC00577063 /* Release */,
+				C6FEF87D25B734A0001AEF8F /* Debug */,
+				C6FEF87E25B734A0001AEF8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C6F5E1522531DFDC00577063 /* Project object */;
+	rootObject = C6FEF86D25B734A0001AEF8F /* Project object */;
 }

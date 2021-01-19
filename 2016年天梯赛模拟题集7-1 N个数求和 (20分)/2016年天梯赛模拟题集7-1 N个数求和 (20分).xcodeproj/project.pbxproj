@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6F5E1722531E86000577063 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6F5E1712531E86000577063 /* main.cpp */; };
+		C6AE0C0D25B7285E00126CBF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6AE0C0C25B7285E00126CBF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C6F5E16C2531E86000577063 /* CopyFiles */ = {
+		C6AE0C0725B7285E00126CBF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C6F5E16E2531E86000577063 /* 1260: [蓝桥杯2015初赛]加法变乘法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1260: [蓝桥杯2015初赛]加法变乘法"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F5E1712531E86000577063 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C6F5E1782531E86900577063 /* 1260[蓝桥杯2015初赛]加法变乘法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "1260[蓝桥杯2015初赛]加法变乘法.md"; sourceTree = "<group>"; };
+		C6AE0C0925B7285E00126CBF /* 2016年天梯赛模拟题集7-1 N个数求和 (20分) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2016年天梯赛模拟题集7-1 N个数求和 (20分)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AE0C0C25B7285E00126CBF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C6AE0C1525B72A1900126CBF /* 2016年天梯赛模拟题集  7-1 N个数求和 (20分).md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "2016年天梯赛模拟题集  7-1 N个数求和 (20分).md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C6F5E16B2531E86000577063 /* Frameworks */ = {
+		C6AE0C0625B7285E00126CBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,65 +39,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C6F5E1652531E86000577063 = {
+		C6AE0C0025B7285E00126CBF = {
 			isa = PBXGroup;
 			children = (
-				C6F5E1782531E86900577063 /* 1260[蓝桥杯2015初赛]加法变乘法.md */,
-				C6F5E1702531E86000577063 /* 1260: [蓝桥杯2015初赛]加法变乘法 */,
-				C6F5E16F2531E86000577063 /* Products */,
+				C6AE0C1525B72A1900126CBF /* 2016年天梯赛模拟题集  7-1 N个数求和 (20分).md */,
+				C6AE0C0B25B7285E00126CBF /* 2016年天梯赛模拟题集7-1 N个数求和 (20分) */,
+				C6AE0C0A25B7285E00126CBF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C6F5E16F2531E86000577063 /* Products */ = {
+		C6AE0C0A25B7285E00126CBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6F5E16E2531E86000577063 /* 1260: [蓝桥杯2015初赛]加法变乘法 */,
+				C6AE0C0925B7285E00126CBF /* 2016年天梯赛模拟题集7-1 N个数求和 (20分) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C6F5E1702531E86000577063 /* 1260: [蓝桥杯2015初赛]加法变乘法 */ = {
+		C6AE0C0B25B7285E00126CBF /* 2016年天梯赛模拟题集7-1 N个数求和 (20分) */ = {
 			isa = PBXGroup;
 			children = (
-				C6F5E1712531E86000577063 /* main.cpp */,
+				C6AE0C0C25B7285E00126CBF /* main.cpp */,
 			);
-			path = "1260: [蓝桥杯2015初赛]加法变乘法";
+			path = "2016年天梯赛模拟题集7-1 N个数求和 (20分)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C6F5E16D2531E86000577063 /* 1260: [蓝桥杯2015初赛]加法变乘法 */ = {
+		C6AE0C0825B7285E00126CBF /* 2016年天梯赛模拟题集7-1 N个数求和 (20分) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6F5E1752531E86000577063 /* Build configuration list for PBXNativeTarget "1260: [蓝桥杯2015初赛]加法变乘法" */;
+			buildConfigurationList = C6AE0C1025B7285E00126CBF /* Build configuration list for PBXNativeTarget "2016年天梯赛模拟题集7-1 N个数求和 (20分)" */;
 			buildPhases = (
-				C6F5E16A2531E86000577063 /* Sources */,
-				C6F5E16B2531E86000577063 /* Frameworks */,
-				C6F5E16C2531E86000577063 /* CopyFiles */,
+				C6AE0C0525B7285E00126CBF /* Sources */,
+				C6AE0C0625B7285E00126CBF /* Frameworks */,
+				C6AE0C0725B7285E00126CBF /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "1260: [蓝桥杯2015初赛]加法变乘法";
-			productName = "1260: [蓝桥杯2015初赛]加法变乘法";
-			productReference = C6F5E16E2531E86000577063 /* 1260: [蓝桥杯2015初赛]加法变乘法 */;
+			name = "2016年天梯赛模拟题集7-1 N个数求和 (20分)";
+			productName = "2016年天梯赛模拟题集7-1 N个数求和 (20分)";
+			productReference = C6AE0C0925B7285E00126CBF /* 2016年天梯赛模拟题集7-1 N个数求和 (20分) */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C6F5E1662531E86000577063 /* Project object */ = {
+		C6AE0C0125B7285E00126CBF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					C6F5E16D2531E86000577063 = {
-						CreatedOnToolsVersion = 12.0;
+					C6AE0C0825B7285E00126CBF = {
+						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = C6F5E1692531E86000577063 /* Build configuration list for PBXProject "1260: [蓝桥杯2015初赛]加法变乘法" */;
+			buildConfigurationList = C6AE0C0425B7285E00126CBF /* Build configuration list for PBXProject "2016年天梯赛模拟题集7-1 N个数求和 (20分)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C6F5E1652531E86000577063;
-			productRefGroup = C6F5E16F2531E86000577063 /* Products */;
+			mainGroup = C6AE0C0025B7285E00126CBF;
+			productRefGroup = C6AE0C0A25B7285E00126CBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6F5E16D2531E86000577063 /* 1260: [蓝桥杯2015初赛]加法变乘法 */,
+				C6AE0C0825B7285E00126CBF /* 2016年天梯赛模拟题集7-1 N个数求和 (20分) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C6F5E16A2531E86000577063 /* Sources */ = {
+		C6AE0C0525B7285E00126CBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F5E1722531E86000577063 /* main.cpp in Sources */,
+				C6AE0C0D25B7285E00126CBF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C6F5E1732531E86000577063 /* Debug */ = {
+		C6AE0C0E25B7285E00126CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +178,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -186,7 +186,7 @@
 			};
 			name = Debug;
 		};
-		C6F5E1742531E86000577063 /* Release */ = {
+		C6AE0C0F25B7285E00126CBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,14 +231,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		C6F5E1762531E86000577063 /* Debug */ = {
+		C6AE0C1125B7285E00126CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -246,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		C6F5E1772531E86000577063 /* Release */ = {
+		C6AE0C1225B7285E00126CBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -257,25 +257,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6F5E1692531E86000577063 /* Build configuration list for PBXProject "1260: [蓝桥杯2015初赛]加法变乘法" */ = {
+		C6AE0C0425B7285E00126CBF /* Build configuration list for PBXProject "2016年天梯赛模拟题集7-1 N个数求和 (20分)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6F5E1732531E86000577063 /* Debug */,
-				C6F5E1742531E86000577063 /* Release */,
+				C6AE0C0E25B7285E00126CBF /* Debug */,
+				C6AE0C0F25B7285E00126CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6F5E1752531E86000577063 /* Build configuration list for PBXNativeTarget "1260: [蓝桥杯2015初赛]加法变乘法" */ = {
+		C6AE0C1025B7285E00126CBF /* Build configuration list for PBXNativeTarget "2016年天梯赛模拟题集7-1 N个数求和 (20分)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6F5E1762531E86000577063 /* Debug */,
-				C6F5E1772531E86000577063 /* Release */,
+				C6AE0C1125B7285E00126CBF /* Debug */,
+				C6AE0C1225B7285E00126CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C6F5E1662531E86000577063 /* Project object */;
+	rootObject = C6AE0C0125B7285E00126CBF /* Project object */;
 }

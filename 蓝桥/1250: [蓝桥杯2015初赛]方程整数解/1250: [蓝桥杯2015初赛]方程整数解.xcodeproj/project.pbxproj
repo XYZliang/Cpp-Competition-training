@@ -10,6 +10,16 @@
 		C60BE17124E7E3BD005A0D1F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C60BE17024E7E3BD005A0D1F /* main.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C6FEF89A25B7365B001AEF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6FEF89625B7365B001AEF8F /* 2016年天梯赛模拟题集7-3 A-B (20分).xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6FEF88B25B7364D001AEF8F;
+			remoteInfo = "2016年天梯赛模拟题集7-3 A-B (20分)";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		C60BE16B24E7E3BD005A0D1F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -27,6 +37,7 @@
 		C60BE17024E7E3BD005A0D1F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C60BE17724E7E3FF005A0D1F /* 1250 [蓝桥杯2015初赛]方程整数解.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "1250 [蓝桥杯2015初赛]方程整数解.md"; sourceTree = SOURCE_ROOT; };
 		C6D238A925501B32003152D5 /* 43E3D73B-76E2-49C3-B8A8-AF1A2C03D453_1_105_c.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "43E3D73B-76E2-49C3-B8A8-AF1A2C03D453_1_105_c.jpeg"; sourceTree = "<group>"; };
+		C6FEF89625B7365B001AEF8F /* 2016年天梯赛模拟题集7-3 A-B (20分).xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "2016年天梯赛模拟题集7-3 A-B (20分).xcodeproj"; path = "../../2016年天梯赛模拟题集7-3 A-B (20分)/2016年天梯赛模拟题集7-3 A-B (20分).xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +54,7 @@
 		C60BE16424E7E3BD005A0D1F = {
 			isa = PBXGroup;
 			children = (
+				C6FEF89625B7365B001AEF8F /* 2016年天梯赛模拟题集7-3 A-B (20分).xcodeproj */,
 				C6D238A925501B32003152D5 /* 43E3D73B-76E2-49C3-B8A8-AF1A2C03D453_1_105_c.jpeg */,
 				C60BE17724E7E3FF005A0D1F /* 1250 [蓝桥杯2015初赛]方程整数解.md */,
 				C60BE16F24E7E3BD005A0D1F /* 1250: [蓝桥杯2015初赛]方程整数解 */,
@@ -64,6 +76,14 @@
 				C60BE17024E7E3BD005A0D1F /* main.cpp */,
 			);
 			path = "1250: [蓝桥杯2015初赛]方程整数解";
+			sourceTree = "<group>";
+		};
+		C6FEF89725B7365B001AEF8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6FEF89B25B7365B001AEF8F /* 2016年天梯赛模拟题集7-3 A-B (20分) */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,12 +130,28 @@
 			mainGroup = C60BE16424E7E3BD005A0D1F;
 			productRefGroup = C60BE16E24E7E3BD005A0D1F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C6FEF89725B7365B001AEF8F /* Products */;
+					ProjectRef = C6FEF89625B7365B001AEF8F /* 2016年天梯赛模拟题集7-3 A-B (20分).xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C60BE16C24E7E3BD005A0D1F /* 1250: [蓝桥杯2015初赛]方程整数解 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C6FEF89B25B7365B001AEF8F /* 2016年天梯赛模拟题集7-3 A-B (20分) */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "2016年天梯赛模拟题集7-3 A-B (20分)";
+			remoteRef = C6FEF89A25B7365B001AEF8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C60BE16924E7E3BD005A0D1F /* Sources */ = {
