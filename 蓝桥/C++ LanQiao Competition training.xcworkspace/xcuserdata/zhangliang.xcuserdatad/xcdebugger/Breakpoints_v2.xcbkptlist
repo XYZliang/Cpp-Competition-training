@@ -404,5 +404,85 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "260B3B65-6C60-483A-8B40-8A12C5870FC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../2016&#x5e74;&#x5929;&#x68af;&#x8d5b;&#x6a21;&#x62df;&#x9898;&#x96c6;7-8 &#x67e5;&#x9a8c;&#x8eab;&#x4efd;&#x8bc1; (15&#x5206;)/2016&#x5e74;&#x5929;&#x68af;&#x8d5b;&#x6a21;&#x62df;&#x9898;&#x96c6;7-8 &#x67e5;&#x9a8c;&#x8eab;&#x4efd;&#x8bc1; (15&#x5206;)/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F11F30E5-46CB-4217-B392-8FAC1A708544"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../2016&#x5e74;&#x5929;&#x68af;&#x8d5b;&#x6a21;&#x62df;&#x9898;&#x96c6;7-8 &#x67e5;&#x9a8c;&#x8eab;&#x4efd;&#x8bc1; (15&#x5206;)/2016&#x5e74;&#x5929;&#x68af;&#x8d5b;&#x6a21;&#x62df;&#x9898;&#x96c6;7-8 &#x67e5;&#x9a8c;&#x8eab;&#x4efd;&#x8bc1; (15&#x5206;)/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6803BA9D-B568-421B-94A8-B6A587B9AF18"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../2016&#x5e74;&#x5929;&#x68af;&#x8d5b;&#x6a21;&#x62df;&#x9898;&#x96c6;7-9 &#x96c6;&#x5408;&#x76f8;&#x4f3c;&#x5ea6; (25&#x5206;)/2016&#x5e74;&#x5929;&#x68af;&#x8d5b;&#x6a21;&#x62df;&#x9898;&#x96c6;7-9 &#x96c6;&#x5408;&#x76f8;&#x4f3c;&#x5ea6; (25&#x5206;)/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94AF1E8E-7724-400B-972B-2C0622C62B18"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../2016&#x5e74;&#x5929;&#x68af;&#x8d5b;&#x6a21;&#x62df;&#x9898;&#x96c6;7-9 &#x96c6;&#x5408;&#x76f8;&#x4f3c;&#x5ea6; (25&#x5206;)/2016&#x5e74;&#x5929;&#x68af;&#x8d5b;&#x6a21;&#x62df;&#x9898;&#x96c6;7-9 &#x96c6;&#x5408;&#x76f8;&#x4f3c;&#x5ea6; (25&#x5206;)/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F292AAAB-E8F4-4261-AD21-76314646CC61"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../2016&#x5e74;&#x5929;&#x68af;&#x8d5b;&#x6a21;&#x62df;&#x9898;&#x96c6;7-9 &#x96c6;&#x5408;&#x76f8;&#x4f3c;&#x5ea6; (25&#x5206;)/2016&#x5e74;&#x5929;&#x68af;&#x8d5b;&#x6a21;&#x62df;&#x9898;&#x96c6;7-9 &#x96c6;&#x5408;&#x76f8;&#x4f3c;&#x5ea6; (25&#x5206;)/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
