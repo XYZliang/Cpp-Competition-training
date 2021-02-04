@@ -65,38 +65,50 @@
    }
    ```
    
-4. # 1254: [蓝桥杯 2015 初赛\] 手链样式
+4. # getline/cin.getline
+
+   cin.getline()是输入流对象的成员函数
+   getline()是string类的成员函数
+   
+   ```c++
+   string str;
+   getline(cin,str);
+   
+   char str[20];
+   cin.getline(str,20);//读取20-1个字符
+   cout << str;
+   ```
+   
+   对于getline()来说，cin.getline()在使用的时候，必须传入字符数组，并且还需要指定字符数组的长度
+
+5. # 字符串查找：
 
    ```c++
-   #include<iostream>
-   #include<string>
-   #include<algorithm>
-   #include<vector>
-   using namespace std;
-   int main() {
-       string s="aaabbbbccccc";
-       vector<string> v1;//vector容器，能存放各种类型的对象，类似于一个存放任何类型的动态数组，无需考虑长度 （头文件#include<vector>）
-       int ans=0;
-       do {
-               int i = 0;
-               for (;i<v1.size();++i)
-               {
-                   if(v1[i].find(s)!=string::npos)break;//find 在字符串里查找自串。比如aabbcc中查找abbc，存在。string::npos表示无法找到
-               }
-               if(i!=v1.size())continue;//说明重复了，跳过
-               //不重复的话，将链子复制并拼接，确保转动不重复
-               string s2=s+s;
-               v1.push_back(s2);//放入容器
-               reverse(s2.begin(),s2.end());//反转链子（反正翻转） (头文件#include<algorithm>) 无返回值
-               v1.push_back(s2);
-               ans++;
-           }
-       while(next_permutation(s.begin(),s.end()));
-       //next_permutation 列出这个序列的全部排列顺序。从右往左开始调整顺序，每调用一次出下一个顺序
-       cout<<ans<<endl;
-       return 0;
-   }
+   size_type find (value_type _Chr, size_type _Off = 0) const;
+   //find()函数的第1个参数是被搜索的字符、第2个参数是在源串中开始搜索的下标位置
+   size_type find (const value_type* _Ptr , size_type _Off = 0) const;
+   //find()函数的第1个参数是被搜索的字符串，第2个参数是在源串中开始搜索的下标位置
+   size_type find (const value_type* _Ptr, size_type _Off = 0, size_type _Count) const;
+   //第1个参数是被搜索的字符串，第2个参数是源串中开始搜索的下标，第3个参数是关于第1个参数的字符个数（第三个参数是目标字符串的前n个字符。需>1且小于第一个参数的长度。）
+   	int pos2 = str.find("A", 1, 1); // 从str的1位置开始往后找“A”
+   	int pos3 = str.find("A", 0, 2); // 这里由于2超出了“A”的长度，所以返回-1
+   	int pos4 = str.find("88A", 0, 3); // 从str的3位置开始往后找“88A”
+   	int pos5 = str.find("88A", 0, 2); // 从str的0位置开始往后找“88”
+   	int pos6 = str.find("88A", 9, 2); // 从str的9位置开始往后找“88”
+   	int pos7 = str.find("88A", 0, 1); // 从str的0位置开始往后找“8”
+   size_type find (const basic_string& _Str, size_type _Off = 0) const;
+   //第1个参数是被搜索的字符串，第2参数是在源串中开始搜索的下标位置
+   //结果为 string::size_type类型数据，即无符号整数类型，需要强制转换为int
+   rfind()//为逆序，从后往前查，也返回下标。
+   //查找字符串时，rfind的字符串也会反过来。
+   //查找不到返回npos-1
+   
+   find_first_of()//函数可实现在源串中搜索某字符串的功能，该函数的返回值是被搜索字符串的第 1 个字符第 1 次出现的下标（位置）。若查找失败，则返回 npos。
+   find_last_of()//函数同样可实现在源串中搜索某字符串的功能。与 find_first_of() 函数所不同的是，该函数的返回值是被搜索字符串的最后 1 个字符的下标（位置）。若查找失败，则返回 npos。
+   参数同find()
+     
+   find_first_not_of()//函数可实现在源字符串中搜索与指定字符（串）不相等的第 1 个字符；
+   find_last_not_of()//函数可实现在源字符串中搜索与指定字符（串）不相等的最后 1 个字符。
    ```
 
    
-
